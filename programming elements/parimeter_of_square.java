@@ -1,0 +1,15 @@
+package program;
+import java.util.*;
+
+public class parimeter_of_square {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		double side=sc.nextDouble();
+		double peri=4*side;
+		System.out.print("The lenght of the side is "+ side+" whoes perimeter is "+peri);
+		
+
+	}
+
+}
